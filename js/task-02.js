@@ -1,8 +1,5 @@
 // ------------------HW-5__task--02
 
-// Задание 2
-// Напиши класс User для создания пользователя со следующим свойствами:
-
 class User {
     constructor({ name = 'name', age = 0, followers = 0 }) {
         this.name = name,
@@ -14,11 +11,6 @@ class User {
         console.log(`User ${this.name} is ${this.age} years old and has ${this.followers} followers`)
     }
 }
-
-// name - строка
-// age - число
-// followers - число
-// Добавь метод getInfo(), который, выводит строку: User ${ имя } is ${ возраст } years old and has ${ кол - во фоловеров } followers
 
 const mango = new User({
     name: 'Mango',
